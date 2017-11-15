@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Michael Paul Holidays technical Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/styles/app.css">
+    </head>
+    <body>
+        <header>
+            <h1>Technical Test Requirements</h1>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <h3>Summary</h3>
+                    <p>You need to populate properties data in certain way in order to complete the test successfully. <strong>Bootstrap 3.3.7</strong> and <strong>jQuery 2.2.4</strong> JS and CSS files are already loaded through CDNs in <code>index.html</code>. Will highly appreciate using of plain JavaScript, but is not mandatory. Please don't be affraid to use any language or framework documentation.</p>
+                </div>
+                <div class="row">
+                    <h3>Project files structure</h3>
+                    <p>In the project tree you will find a folder <code>/public</code> from where all HTML, JS and CSS file are served. <code>/public/index.html</code> will be your main HTML file, <code>/public/styles/app.css</code> will be your main CSS file and <code>/public/scripts/app.js</code> will be your main JS file.</p>
+                </div>
+                <div class="row">
+                    <h3>Task</h3>
+                    <p>Make an AJAX call to <code>http://localhost:3000/api/properties</code> endpoint from where you will receive an array of 12  objects. Each object will have the same structure, just the values will be different for each property. Your task is to dynamically create the HTML for each property and append it to DIV with id of 'properties-list' which is located in <code>/public/index.html</code> file.</p>
+                    <p>For mobile devices the number of properties per row should be 1, for tablets should be 2 and for desktop should be 3. Below you can see an images of how this should look for each device after completion.</p>
+                </div>
+            </div>
+        </main>
+        <!-- JavaScript externals -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/scripts/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008692;
+}
+
+header h1 {
+    margin-top: 0;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#properties-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#properties-list .property-name {
+    height: 40px;
+}
+
+#properties-list .property-box .carousel-inner img {
+    height: 250px;
+}
+
+.glyphicon-star, .glyphicon-ok {
+    color: #008692;
+}
+
+.glyphicon-ok {
+    margin-right: 10px;
+}
+
+.property-box {
+    border: 1px solid #333;
+    margin: 15px;
+}
+
+.property-box .bottom {
+    padding: 15px;
+}
