@@ -33,3 +33,7 @@ and the server will start and will be listening on [http://localhost:3000](http:
 
 The project uses a number of open source projects to work properly:
 * [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
+
+### Credits
+
+Initially created by [Nikolay Nikolov](https://github.com/smoockpp)
