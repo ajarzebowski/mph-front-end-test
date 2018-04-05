@@ -8,7 +8,7 @@ You need to have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/
 # Installation
 First thing is to clone the project from BitBucket. Open a terminal (or command prompt) and clone the repository to your machine.
 ```sh
-git clone https://bitbucket.org/mpholidays/mph-front-end-test
+git clone https://github.com/ajarzebowski/mph-front-end-test.git
 ```
 After the project is cloned in your terminal navigate to the project folder
 ```sh
